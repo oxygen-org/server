@@ -1,0 +1,25 @@
+{
+    "Dev":{
+        "DEBUG":false,
+        "HOST_PORT":9898,
+        "SECRET_KEY":"",
+        "MQ_EXECHANGE":"nitrogen",
+        "MQ_EXECHANGE_TYPE":"direct",
+        "MQ_HOST":"192.168.1.182",
+        "MQ_PORT":5672,
+        "MQ_USERNAME":"xtalpi",
+        "MQ_PASSWORD":"20180330",
+        "S3_BUCKET_URL":"https://s3.cn-north-1.amazonaws.com.cn/nitrogen/",
+        "BASE_IMAGE":"{'harbor.atompai.com':'harbor.atompai.com/nitrogen/nitrogen:v6','hub.xtalpi.cc':'hub.xtalpi.cc/atompai/nitrogen:v6'}",
+        "DOCKER_CLIENT_BASE_URL":"192.168.1.182",
+        "HARBOR_USERNAME":"nitrogen",
+        "HARBOR_PASSWORD":"Nitrogen2018",
+        "REDIS_HOST":"192.168.1.182",
+        "REDIS_PORT":6378,
+        "REDIS_DB":1,
+        "REDIS_PASSWORD":"",
+        "SQL_URI":"james:123456@tcp(192.168.1.182:3406)/nitrogen?charset=utf8&parseTime=True&loc=Local",
+        "WORKER_EMAIL": "nitrogen.worker@xtalpi.com",
+        "DIAPATCHER_EMAIL": "arbiter@xtalpi.com"
+    }
+}
